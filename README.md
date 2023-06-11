@@ -8,6 +8,14 @@ To learn:
 how does gradient descent actually work? how is it implemented?
 and of course later move onto more complex machine learning algorithms like ppo
 
+
+very cool resources (for dumb people like me):
+machine learning glossary: https://ml-cheatsheet.readthedocs.io/en/latest/index.html
+matrix multiplication: https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-matrices/a/multiplying-matrices
+matrix multiplication properties: https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:properties-of-matrix-multiplication/a/properties-of-matrix-multiplication
+
+
+
 ## This fork is made to work with the latest python versions (3.8.x to 3.10.x)
 
 This is a fork of [Michael Nielsen](https://github.com/mnielsen/neural-networks-and-deep-learning) repository and is meant to be updated with the latest python and dependency versions. Most things have been updated and currently work. Any help is appreciated and if you spotted any problems, please open an issue and/or a PR.

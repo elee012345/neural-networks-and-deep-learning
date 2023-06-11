@@ -39,6 +39,9 @@ class Network(object):
 
     def feedforward(self, a):
         """Return the output of the network if ``a`` is input."""
+
+        # loops through each weight and bias and calculates the result from each
+        # passes it through the network and returns the final output
         for b, w in zip(self.biases, self.weights):
             a = sigmoid(np.dot(w, a)+b)
         return a
@@ -53,6 +56,8 @@ class Network(object):
         network will be evaluated against the test data after each
         epoch, and partial progress printed out.  This is useful for
         tracking progress, but slows things down substantially."""
+
+        # the eta is the learning rate
         if test_data: n_test = len(test_data)
         n = len(training_data)
         for j in range(epochs):
