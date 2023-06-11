@@ -1,3 +1,13 @@
+## This is a fork of the below fork lol
+learning machine learnning :D
+know so far:
+
+Take however many inputs, and feed them through a large network. This network has many layers, each one with a different number of nodes (neurons). Each of your inputs (also a neuron, though it's mostly called that for convenience) gets multipled by a weight specific to that neuron and the next (so each neuron connects to each one before and after it). Each neuron (not weight!) has a specific bias to give it more or less 'signal strength', and then take the quadratic cost (error). We take mini batches of this error, and try to decrease this error by changing the inputs (traveling down the gradient in n dimensions, where n is the number of inputs). We take small batches of this cost instead of calculating it for all inputs to make the process faster (it's a heuristic that's 'good enough'). 
+
+To learn:
+how does gradient descent actually work? how is it implemented?
+and of course later move onto more complex machine learning algorithms like ppo
+
 ## This fork is made to work with the latest python versions (3.8.x to 3.10.x)
 
 This is a fork of [Michael Nielsen](https://github.com/mnielsen/neural-networks-and-deep-learning) repository and is meant to be updated with the latest python and dependency versions. Most things have been updated and currently work. Any help is appreciated and if you spotted any problems, please open an issue and/or a PR.
