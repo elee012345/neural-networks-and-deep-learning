@@ -57,7 +57,7 @@ class Network(object):
         epoch, and partial progress printed out.  This is useful for
         tracking progress, but slows things down substantially."""
 
-        # the eta is the learning rate
+        # the eta is the learning rate  
         if test_data: n_test = len(test_data)
         n = len(training_data)
         for j in range(epochs):
