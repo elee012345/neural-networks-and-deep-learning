@@ -2,7 +2,7 @@
 learning machine learnning :D
 know so far:
 
-Take however many inputs, and feed them through a large network. This network has many layers, each one with a different number of nodes (neurons). Each of your inputs (also a neuron, though it's mostly called that for convenience) gets multipled by a weight specific to that neuron and the next (so each neuron connects to each one before and after it). Each neuron (not weight!) has a specific bias to give it more or less 'signal strength', and then take the quadratic cost (error). We take mini batches of this error, and try to decrease this error by changing the inputs (traveling down the gradient in n dimensions, where n is the number of inputs). We take small batches of this cost instead of calculating it for all inputs to make the process faster (it's a heuristic that's 'good enough'). 
+Take however many inputs, and feed them through a large network. This network has many layers, each one with a different number of nodes (neurons). Each of your inputs (also a neuron, though it's mostly called that for convenience) gets multipled by a weight specific to that neuron and the next (so each neuron connects to each one before and after it). Each neuron (not weight!) has a specific bias to give it more or less 'signal strength', and then take the quadratic cost (error). We take mini batches of this error, and try to decrease this error by changing the weights and biases for each neuron (traveling down the gradient in n dimensions, where n is the number of inputs). We take small batches of this cost instead of calculating it for all weights and biases to make the process faster (it's a heuristic that's 'good enough'). 
 
 To learn:
 how does gradient descent actually work? how is it implemented?
